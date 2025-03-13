@@ -313,7 +313,7 @@ def main():
     The main function to execute the entire process, including reading PDFs, getting summaries, and exporting results to Excel.
     """
     CONFIG = {
-        "api_key": "sk-15292fd22b02419db281e42552c0e453",
+        "api_key": "Add you API KEY here",
         "pdf_folder": r"C:\Users\xinjiehuang\Desktop\research\trust\test",
         "output_file": "research_summary.xlsx",
         "user_prompt_path": r"C:\Users\xinjiehuang\Desktop\research\trust\prompts\user_prompt.txt"
