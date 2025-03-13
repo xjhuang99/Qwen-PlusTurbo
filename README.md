@@ -19,21 +19,13 @@ This Python script summarizes PDF research papers using Qwen - Plus or Qwen - Tu
 - Libraries: `os`, `datetime`, `typing`, `pandas`, `re`, `langchain_community`, `openai`, `openpyxl`
 - Valid Qwen API key
 
-## Installation
-```bash
-pip install pandas langchain_community openai openpyxl
-```
-
 ## Configuration
 Update `CONFIG` in `main` with API key, PDF folder, output file, and prompt file paths.
 
 ## Usage
 1. Put PDFs in the specified folder.
 2. Create a user prompt file.
-3. Run the script:
-```bash
-python script_name.py
-```
+3. Run the script
 4. Results are saved as TXT and timestamped Excel file.
 
 ## Classes
